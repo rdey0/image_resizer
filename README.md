@@ -1,5 +1,5 @@
 <h1 align='center' >Image Resizer</h1>
-<div align='center'>
+<div>
     <img src='https://img.shields.io/badge/MATLAB-9.6-blue' alt='MATLAB 9.6'>
     <img src='https://img.shields.io/badge/Topic-Computer%20Vision-green' alt='Topic: Computer Vision'>
     <img src='https://img.shields.io/badge/Status-Open%20Source-orange' alt='Status: Open source'>
