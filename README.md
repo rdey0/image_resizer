@@ -27,7 +27,7 @@ In order to select a seam, a gradient is first applied to the base image to prod
 calculates the change in image intensity using derivative calculations. An example energy image looks like this:
 
 <figure align='center'>
-    <img src='./assets/images/energyImage.PNG'/>
+    <img src='./assets/images/energyImage.png'/>
     <figcaption>
         Brighter colors indicate higher energy. Notice how edges are highlighted. This is because the greatest changes in image intensity/energy occur at these areas
     </figcaption>
