@@ -28,7 +28,7 @@ calculates the change in image intensity using derivative calculations. An examp
 
 <figure align='center'>
     <img src='./assets/images/energyImage.png'/>
-    <figcaption>
+    <figcaption align='center'>
         Brighter colors indicate higher energy. Notice how edges are highlighted. This is because the greatest changes in image intensity/energy occur at these areas
     </figcaption>
 </figure>
@@ -43,14 +43,14 @@ If our goal is to reduce the width of an image, we will need to find a vertical 
 
 <figure align='center'>
     <img src='./assets/images/cumulativeMinEnergyMapH.png'/>
-    <figcaption>
+    <figcaption align='center'>
         Horizontal minimum cumulative energy image. notice how high energy pixels are on the right of the image
     </figcaption>
 </figure>
 
 <figure align='center'>
     <img src='./assets/images/cumulativeMinEnergyMapV.png'/>
-    <figcaption>
+    <figcaption align='center'>
         Vertical minimum cumulative energy image. notice how high energy pixels are on the bottom of the image
     </figcaption>
 </figure> 
@@ -66,7 +66,9 @@ Conversely, if we are trying to locate a vertical seam, we iterate through the b
 Chosen seams will look like this:
 <figure align='center'>
     <img src='./assets/images/seam_examples.PNG'/>
-    <figcaption>Example of a vertical seam (left) and horizontal seam (right) which have been chosen for removal</figcaption>
+    <figcaption align='center'>
+        Example of a vertical seam (left) and horizontal seam (right) which have been chosen for removal
+    </figcaption>
 </figure>
 
 Once we've found the seam of pixels, we simply remove them, thus resizing the image.
